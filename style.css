@@ -1,0 +1,185 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: darkcyan;
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    }
+    
+    .navbar a{
+        color: azure;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar a:hover{
+        background-color: black;
+    }
+    
+    .navbar li{
+        float: left;
+    }
+    
+    .navbar a.active{
+        background-color: antiquewhite;
+        color: chocolate;
+    }
+
+    footer ul{
+        list-style-type: none;
+        background-color:black ;
+        overflow: hidden;
+    }
+
+    footer a{
+        display: block;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        float: left;
+    }
+
+    footer a:hover{
+        background-color: aliceblue;
+        color: cadetblue;
+    }
+
+    header{
+        background-image: url(preview.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        min-height: 100px;
+        
+    
+        
+    }
+
+ 
+
+    .logo img{
+        float: right;
+        width: 61px;
+        height: auto;
+    }
+
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .title{
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .title h1{
+        color: rgb(15, 196, 136);
+        font: 32px Overlock, display;
+        font-size: 70px;
+        font-weight: bold;
+        font-family: 'Times New Roman';
+    }
+
+.button{
+    position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(189, 119, 33);
+}
+
+.btn:hover{
+    background-color: black;
+    color: bisque;
+}
+
+.img{
+    float: left;
+    width: 40%;
+    }
+
+    .img:hover{
+        transform: scale(110%);
+    }
+
+    .img1{
+        float: right;
+    }
+
+    .about{
+        background-image: url(OIP.jpg);
+
+    }
+
+    
+
+    .img1:hover{
+        transform: scale(110%);
+    }
+
+    .garden{
+        border-radius: 5%;
+        pad: 0;
+    border-bottom: green solid 5px;
+    }
+
+    .img2:hover{ 
+        transform: scale(5px);
+    }
+
+    .contact{
+        background-image: url(muffin.cioccolato-fondente-banana.jpg);
+    }
+
+    .input{
+        margin: 10px;
+        
+    }
+
+    .input1{
+        margin: 10px;
+        
+    }
+
+    .input2{
+        margin: 10px;
+        
+    }
+
+
+    .input3{
+        margin: 10px;
+        
+    }
+
+    .download{
+        transform: scale(5px);
+    }
+
+    .gallery{
+        margin: 0;
+        padding: 0;
+    }
+
+.menu{
+    background-image: url(OIP\ \(2\).jpg);
+
+}
+
+.amenities{
+    background-image: url(OIP\ \(3\).jpg);
+}
